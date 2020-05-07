@@ -1,4 +1,5 @@
-<h1 align="center">Welcome to SmartTask 👋</h1>
+<h1 align="center">Welcome to SmartTask 📌</h1>
+
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-purple.svg?cacheSeconds=332592000" />
 
@@ -7,9 +8,12 @@
   </a>
 </p>
 
+
 > 👨🏽‍🏫 It's a simple task controller
 
+
 ⚠️ Only tested in MacOS with docker.
+
 
 ### 🏠 [Homepage](https://github.com/paulorcvieira/smarttask-node-react-js-native#readme)
 
@@ -63,4 +67,4 @@ $ npm start
 ## 📝 License
 
 Copyright © 2020 [Paulo Vieira](https://github.com/paulorcvieira).<br />
-This project is [ISC](https://github.com/paulorcvieira/smarttask-node-react-js-native/) licensed.
+This project is [ISC](https://github.com/paulorcvieira/smarttask-node-react-js-native/blob/master/LICENSE.md) licensed.
