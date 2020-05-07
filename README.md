@@ -13,19 +13,36 @@
 
 ### 🏠 [Homepage](https://github.com/paulorcvieira/smarttask-node-react-js-native#readme)
 
-## Docker
+## Task List
+
+- [x] backend (NodeJS)
+- [ ] frontend
+	- [x] web (ReactJS)
+	- [ ] mobile (React Native)
+
+## Root
+
++ ./
+  * /frontend
+  * /backend
+    * /web
+    * /mobile
+
+## Backend / Frontend
+
+### Docker
 
 ```sh
 $ docker-compose up -d
 ```
 
-## Install
+### Install Packages
 
 ```sh
 $ npm install
 ```
 
-## Usage
+### Usage
 
 ```sh
 $ npm start

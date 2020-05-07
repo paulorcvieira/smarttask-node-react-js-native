@@ -1,0 +1,18 @@
+version: "3"
+services:
+  api:
+    image: node:12.16.3-alpine
+    container_name: "nodejs"
+    ports:
+      - "3000:3000"
+    working_dir: "/home/node/app"
+    volumes:
+      - ./:/home/node/app
+    command: "npm install"
+    command: "npm start"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: "bridge"
