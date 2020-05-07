@@ -1,0 +1,17 @@
+/node_modules
+.dbcache
+**/.dbcache
+.env
+backend/.env
+backend/.dbcache
+backend/Insomnia_test_routes.json
+frontend/mobile
+frontend/web/node_modules
+Insomnia_test_routes.json
+*.lock
+**/*.lock
+package-lock.json
+**/package-lock.json
+yarn.lock
+**/yarn.lock
+commands.txt
