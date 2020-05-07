@@ -1,17 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend/web/node_modules
+frontend/mobile
+frontend/web/.pnp
+frontend/web/.pnp.js
+
+# misc
+frontend/web/.DS_Store
+frontend/web/.env
+
+frontend/web/npm-debug.log*
+frontend/web/yarn-debug.log*
+frontend/web/yarn-error.log*
+frontend/web/yarn.lock
+frontend/web/*.lock
+
+# others
 /node_modules
 .dbcache
 **/.dbcache
+.DS_Store
+**/.DS_Store
 .env
 backend/.env
 backend/.dbcache
 backend/Insomnia_test_routes.json
-frontend/mobile
-frontend/web/node_modules
-Insomnia_test_routes.json
-*.lock
-**/*.lock
-package-lock.json
-**/package-lock.json
-yarn.lock
-**/yarn.lock
+backend/*.lock
+backend/**/*.lock
+backend/package-lock.json
+backend/**/package-lock.json
+backend/yarn.lock
+backend/**/yarn.lock
 commands.txt
